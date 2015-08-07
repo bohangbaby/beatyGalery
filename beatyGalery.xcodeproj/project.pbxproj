@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1704E671B74AAC700DA279E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1704E661B74AAC700DA279E /* AppDelegate.swift */; };
+		F1704E691B74AAC700DA279E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1704E681B74AAC700DA279E /* ViewController.swift */; };
+		F1704E6C1B74AAC700DA279E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1704E6A1B74AAC700DA279E /* Main.storyboard */; };
+		F1704E6E1B74AAC700DA279E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1704E6D1B74AAC700DA279E /* Images.xcassets */; };
+		F1704E711B74AAC700DA279E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1704E6F1B74AAC700DA279E /* LaunchScreen.xib */; };
+		F1704E7D1B74AAC700DA279E /* beatyGaleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1704E7C1B74AAC700DA279E /* beatyGaleryTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1704E771B74AAC700DA279E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1704E591B74AAC700DA279E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1704E601B74AAC700DA279E;
+			remoteInfo = beatyGalery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1704E611B74AAC700DA279E /* beatyGalery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beatyGalery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1704E651B74AAC700DA279E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1704E661B74AAC700DA279E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1704E681B74AAC700DA279E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1704E6B1B74AAC700DA279E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1704E6D1B74AAC700DA279E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1704E701B74AAC700DA279E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F1704E761B74AAC700DA279E /* beatyGaleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beatyGaleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1704E7B1B74AAC700DA279E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1704E7C1B74AAC700DA279E /* beatyGaleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beatyGaleryTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1704E5E1B74AAC700DA279E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1704E731B74AAC700DA279E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1704E581B74AAC700DA279E = {
+			isa = PBXGroup;
+			children = (
+				F1704E631B74AAC700DA279E /* beatyGalery */,
+				F1704E791B74AAC700DA279E /* beatyGaleryTests */,
+				F1704E621B74AAC700DA279E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1704E621B74AAC700DA279E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1704E611B74AAC700DA279E /* beatyGalery.app */,
+				F1704E761B74AAC700DA279E /* beatyGaleryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1704E631B74AAC700DA279E /* beatyGalery */ = {
+			isa = PBXGroup;
+			children = (
+				F1704E661B74AAC700DA279E /* AppDelegate.swift */,
+				F1704E681B74AAC700DA279E /* ViewController.swift */,
+				F1704E6A1B74AAC700DA279E /* Main.storyboard */,
+				F1704E6D1B74AAC700DA279E /* Images.xcassets */,
+				F1704E6F1B74AAC700DA279E /* LaunchScreen.xib */,
+				F1704E641B74AAC700DA279E /* Supporting Files */,
+			);
+			path = beatyGalery;
+			sourceTree = "<group>";
+		};
+		F1704E641B74AAC700DA279E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1704E651B74AAC700DA279E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1704E791B74AAC700DA279E /* beatyGaleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1704E7C1B74AAC700DA279E /* beatyGaleryTests.swift */,
+				F1704E7A1B74AAC700DA279E /* Supporting Files */,
+			);
+			path = beatyGaleryTests;
+			sourceTree = "<group>";
+		};
+		F1704E7A1B74AAC700DA279E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1704E7B1B74AAC700DA279E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1704E601B74AAC700DA279E /* beatyGalery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1704E801B74AAC700DA279E /* Build configuration list for PBXNativeTarget "beatyGalery" */;
+			buildPhases = (
+				F1704E5D1B74AAC700DA279E /* Sources */,
+				F1704E5E1B74AAC700DA279E /* Frameworks */,
+				F1704E5F1B74AAC700DA279E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beatyGalery;
+			productName = beatyGalery;
+			productReference = F1704E611B74AAC700DA279E /* beatyGalery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1704E751B74AAC700DA279E /* beatyGaleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1704E831B74AAC700DA279E /* Build configuration list for PBXNativeTarget "beatyGaleryTests" */;
+			buildPhases = (
+				F1704E721B74AAC700DA279E /* Sources */,
+				F1704E731B74AAC700DA279E /* Frameworks */,
+				F1704E741B74AAC700DA279E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1704E781B74AAC700DA279E /* PBXTargetDependency */,
+			);
+			name = beatyGaleryTests;
+			productName = beatyGaleryTests;
+			productReference = F1704E761B74AAC700DA279E /* beatyGaleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1704E591B74AAC700DA279E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Mrtang;
+				TargetAttributes = {
+					F1704E601B74AAC700DA279E = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F1704E751B74AAC700DA279E = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F1704E601B74AAC700DA279E;
+					};
+				};
+			};
+			buildConfigurationList = F1704E5C1B74AAC700DA279E /* Build configuration list for PBXProject "beatyGalery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1704E581B74AAC700DA279E;
+			productRefGroup = F1704E621B74AAC700DA279E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1704E601B74AAC700DA279E /* beatyGalery */,
+				F1704E751B74AAC700DA279E /* beatyGaleryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1704E5F1B74AAC700DA279E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1704E6C1B74AAC700DA279E /* Main.storyboard in Resources */,
+				F1704E711B74AAC700DA279E /* LaunchScreen.xib in Resources */,
+				F1704E6E1B74AAC700DA279E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1704E741B74AAC700DA279E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1704E5D1B74AAC700DA279E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1704E691B74AAC700DA279E /* ViewController.swift in Sources */,
+				F1704E671B74AAC700DA279E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1704E721B74AAC700DA279E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1704E7D1B74AAC700DA279E /* beatyGaleryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1704E781B74AAC700DA279E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1704E601B74AAC700DA279E /* beatyGalery */;
+			targetProxy = F1704E771B74AAC700DA279E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1704E6A1B74AAC700DA279E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1704E6B1B74AAC700DA279E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1704E6F1B74AAC700DA279E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1704E701B74AAC700DA279E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1704E7E1B74AAC700DA279E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1704E7F1B74AAC700DA279E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1704E811B74AAC700DA279E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = beatyGalery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1704E821B74AAC700DA279E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = beatyGalery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1704E841B74AAC700DA279E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = beatyGaleryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beatyGalery.app/beatyGalery";
+			};
+			name = Debug;
+		};
+		F1704E851B74AAC700DA279E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = beatyGaleryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beatyGalery.app/beatyGalery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1704E5C1B74AAC700DA279E /* Build configuration list for PBXProject "beatyGalery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1704E7E1B74AAC700DA279E /* Debug */,
+				F1704E7F1B74AAC700DA279E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1704E801B74AAC700DA279E /* Build configuration list for PBXNativeTarget "beatyGalery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1704E811B74AAC700DA279E /* Debug */,
+				F1704E821B74AAC700DA279E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1704E831B74AAC700DA279E /* Build configuration list for PBXNativeTarget "beatyGaleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1704E841B74AAC700DA279E /* Debug */,
+				F1704E851B74AAC700DA279E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1704E591B74AAC700DA279E /* Project object */;
+}
