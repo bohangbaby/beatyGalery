@@ -13,6 +13,8 @@
 		F1704E6E1B74AAC700DA279E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1704E6D1B74AAC700DA279E /* Images.xcassets */; };
 		F1704E711B74AAC700DA279E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1704E6F1B74AAC700DA279E /* LaunchScreen.xib */; };
 		F1704E7D1B74AAC700DA279E /* beatyGaleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1704E7C1B74AAC700DA279E /* beatyGaleryTests.swift */; };
+		F1704E871B74BE8100DA279E /* pikerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1704E861B74BE8100DA279E /* pikerDelegate.swift */; };
+		F1704E891B74DAD300DA279E /* photoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1704E881B74DAD300DA279E /* photoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F1704E761B74AAC700DA279E /* beatyGaleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beatyGaleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1704E7B1B74AAC700DA279E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1704E7C1B74AAC700DA279E /* beatyGaleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beatyGaleryTests.swift; sourceTree = "<group>"; };
+		F1704E861B74BE8100DA279E /* pikerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pikerDelegate.swift; sourceTree = "<group>"; };
+		F1704E881B74DAD300DA279E /* photoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				F1704E6D1B74AAC700DA279E /* Images.xcassets */,
 				F1704E6F1B74AAC700DA279E /* LaunchScreen.xib */,
 				F1704E641B74AAC700DA279E /* Supporting Files */,
+				F1704E861B74BE8100DA279E /* pikerDelegate.swift */,
+				F1704E881B74DAD300DA279E /* photoViewController.swift */,
 			);
 			path = beatyGalery;
 			sourceTree = "<group>";
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1704E871B74BE8100DA279E /* pikerDelegate.swift in Sources */,
+				F1704E891B74DAD300DA279E /* photoViewController.swift in Sources */,
 				F1704E691B74AAC700DA279E /* ViewController.swift in Sources */,
 				F1704E671B74AAC700DA279E /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +417,7 @@
 				F1704E821B74AAC700DA279E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1704E831B74AAC700DA279E /* Build configuration list for PBXNativeTarget "beatyGaleryTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				F1704E851B74AAC700DA279E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
